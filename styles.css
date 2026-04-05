@@ -22,12 +22,19 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 300;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.5rem;
-    color: #fff;
+    letter-spacing: 0.15em;
+    color: #e8a0b4;
+    text-shadow: 0 0 20px rgba(232, 100, 140, 0.3);
 }
 
-p {
-    font-size: 1rem;
-    color: #888;
+.heart {
+    font-size: 3rem;
+    color: #c94060;
+    margin-bottom: 1rem;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.15); opacity: 1; }
 }
