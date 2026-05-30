@@ -3,7 +3,7 @@
 Static website for isqsv.com, hosted via GitHub Pages.
 
 ## Stack
-- Plain HTML/CSS/JS (no frameworks)
+- Plain HTML/CSS, no JavaScript (animation is pure CSS keyframes)
 - GitHub Pages for hosting
 - GoDaddy DNS pointing to GitHub Pages IPs
 - Domain: isqsv.com (registered at GoDaddy, active through 2028)
@@ -12,6 +12,7 @@ Static website for isqsv.com, hosted via GitHub Pages.
 - `index.html` — landing page
 - `styles.css` — site styles
 - `CNAME` — GitHub Pages custom domain config
+- `.gitignore` — ignores `.env`, `__pycache__/`, `*.pyc`
 
 ## Deployment
 Push to `main` branch → GitHub Pages auto-deploys.
